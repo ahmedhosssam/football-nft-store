@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f454c2e2.css",
+    "main.js": "/static/js/main.a48e96f8.js",
+    "static/js/787.d6fe38e8.chunk.js": "/static/js/787.d6fe38e8.chunk.js",
+    "static/media/ronaldo.jpg": "/static/media/ronaldo.47f049de63ad61d4832a.jpg",
+    "static/media/messi.jpg": "/static/media/messi.50dff0d4500f842aa38a.jpg",
+    "static/media/salah.jpg": "/static/media/salah.8e795f03a75b0affd9d3.jpg",
+    "static/media/mane.jpg": "/static/media/mane.90798fa900bfef84da17.jpg",
+    "static/media/lewa.jpg": "/static/media/lewa.bd82af154dd01675d0b4.jpg",
+    "static/media/mbappe.jpg": "/static/media/mbappe.942f0114e530b60b4ad1.jpg",
+    "static/media/almiron.jpg": "/static/media/almiron.e1e6aaf3cd55e68c6d6d.jpg",
+    "static/media/wallpaper.jpg": "/static/media/wallpaper.8397117445f233e034da.jpg",
+    "static/media/shop-background.jpg": "/static/media/shop-background.222a343c583ad9b93adf.jpg",
+    "static/media/harry-kane.jpg": "/static/media/harry-kane.b64e8e3ef4b384e29555.jpg",
+    "static/media/haaland.jpg": "/static/media/haaland.bd4be932f1eee3523201.jpg",
+    "index.html": "/index.html",
+    "main.f454c2e2.css.map": "/static/css/main.f454c2e2.css.map",
+    "main.a48e96f8.js.map": "/static/js/main.a48e96f8.js.map",
+    "787.d6fe38e8.chunk.js.map": "/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f454c2e2.css",
+    "static/js/main.a48e96f8.js"
+  ]
+}
