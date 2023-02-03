@@ -89,6 +89,7 @@ header button:hover {
   align-items: center;
   border: 1px solid black;
   transition: all 0.4s;
+  padding-bottom: 8px;
   cursor: pointer;
   color: black;
 }
@@ -164,7 +165,6 @@ header button:hover {
 
 .img-holder-player-page button:hover {
   font-size: 32px;
-  /* padding: 5px 17px; */
 }
 
 .player-item img {

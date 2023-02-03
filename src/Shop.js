@@ -10,7 +10,11 @@ const Shop = () => {
       <div className="shop-items">
         {players.map((player) => {
           return (
-            <Link to={`/shopping-cart/shop/${player.id}`} key={player.id}>
+            <Link
+              to={`/shopping-cart/shop/${player.id}`}
+              key={player.id}
+              style={{ textDecoration: 'none' }}
+            >
               <ShopItem
                 img={player.img}
                 name={player.name}
