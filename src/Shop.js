@@ -10,7 +10,7 @@ const Shop = () => {
       <div className="shop-items">
         {players.map((player) => {
           return (
-            <Link to={`/shop/${player.id}`} key={player.id}>
+            <Link to={`/shopping-cart/shop/${player.id}`} key={player.id}>
               <ShopItem
                 img={player.img}
                 name={player.name}

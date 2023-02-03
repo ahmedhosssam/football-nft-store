@@ -12,10 +12,10 @@ function App() {
       <div className="main">
         <Header />
         <Routes>
-          <Route path={`/shop/:id`} element={<ItemPage />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="cart" element={<Cart />} />
+          <Route path={`/shopping-cart/shop/:id`} element={<ItemPage />} />
+          <Route path="/shopping-cart" element={<Home />} />
+          <Route path="/shopping-cart/shop" element={<Shop />} />
+          <Route path="/shopping-cart/cart" element={<Cart />} />
         </Routes>
       </div>
     </BrowserRouter>

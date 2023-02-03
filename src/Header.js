@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/shopping-cart">
         <button className="header-name">FOOTBALL NFT</button>
       </Link>
       <div className="header-buttons">
-        <Link to="/shop">
+        <Link to="/shopping-cart/shop">
           <button>Shop</button>
         </Link>
-        <Link to="/cart">
+        <Link to="/shopping-cart/cart">
           <button>Cart</button>
         </Link>
       </div>
