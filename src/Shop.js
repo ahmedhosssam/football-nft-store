@@ -4,7 +4,7 @@ import players from './data/players';
 const Shop = () => {
   return (
     <div className="shop">
-      <h3>Collection || Planets</h3>
+      <h3>Collection || Players</h3>
       <div className="shop-items">
         {players.map((player) => {
           return (

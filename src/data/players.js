@@ -16,7 +16,7 @@ export default [
     club: 'PSG',
     heigth: '170 CM',
     img: messi,
-    price: '3 ETH',
+    price: 'PRICELESS',
     id: uniqid(),
   },
   {

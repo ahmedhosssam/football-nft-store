@@ -65,3 +65,47 @@ header button:hover {
   justify-content: center;
   align-items: center;
 }
+.shop-items {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  column-gap: 80px;
+  row-gap: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.04);
+}
+
+.item h2 {
+  margin: 10px;
+}
+
+.item h3 {
+  margin: 0;
+}
+
+.img-holder {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
