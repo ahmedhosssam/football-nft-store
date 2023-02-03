@@ -1,5 +1,7 @@
 import ShopItem from './ShopItem';
 import players from './data/players';
+import { Link } from 'react-router-dom';
+// import ItemPage from './ItemPage';
 
 const Shop = () => {
   return (
@@ -8,12 +10,14 @@ const Shop = () => {
       <div className="shop-items">
         {players.map((player) => {
           return (
-            <ShopItem
-              img={player.img}
-              name={player.name}
-              price={player.price}
-              key={player.id}
-            />
+            <Link to={`/shop/${player.id}`} key={player.id}>
+              <ShopItem
+                img={player.img}
+                name={player.name}
+                price={player.price}
+                key={player.id}
+              />
+            </Link>
           );
         })}
       </div>
