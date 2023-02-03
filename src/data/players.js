@@ -1,4 +1,12 @@
 import uniqid from 'uniqid';
+import messi from '../imgs/messi.jpg';
+import almiron from '../imgs/almiron.jpg';
+import haaland from '../imgs/haaland.jpg';
+import kane from '../imgs/harry-kane.jpg';
+import lewa from '../imgs/lewa.jpg';
+import mane from '../imgs/mane.jpg';
+import ronaldo from '../imgs/ronaldo.jpg';
+import salah from '../imgs/salah.jpg';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -7,7 +15,7 @@ export default [
     age: 35,
     club: 'PSG',
     heigth: '170 CM',
-    img: '../imgs/messi.jpg',
+    img: messi,
     price: '3 ETH',
     id: uniqid(),
   },
@@ -16,7 +24,7 @@ export default [
     age: 22,
     club: 'Man City',
     heigth: '194 CM',
-    img: '../imgs/haaland.jpg',
+    img: haaland,
     price: '2.7 ETH',
     id: uniqid(),
   },
@@ -25,7 +33,7 @@ export default [
     age: 29,
     club: 'Tottenham Hotspur',
     heigth: '188 CM',
-    img: '../imgs/harry-kane.jpg',
+    img: kane,
     price: '1.4 ETH',
     id: uniqid(),
   },
@@ -34,7 +42,7 @@ export default [
     age: 34,
     club: 'FC Barcelona',
     heigth: '185 CM',
-    img: '../imgs/lewa.jpg',
+    img: lewa,
     price: '1.6 ETH',
     id: uniqid(),
   },
@@ -43,7 +51,7 @@ export default [
     age: 30,
     club: 'FC Bayern Munich',
     heigth: '174 CM',
-    img: '../imgs/mane.jpg',
+    img: mane,
     price: '1.8 ETH',
     id: uniqid(),
   },
@@ -52,7 +60,7 @@ export default [
     age: 37,
     club: 'Al-Nasser',
     heigth: '185 CM',
-    img: '../imgs/ronaldo.jpg',
+    img: ronaldo,
     price: '0.5 ETH',
     id: uniqid(),
   },
@@ -61,7 +69,7 @@ export default [
     age: 30,
     club: 'Liverpool',
     heigth: '175 CM',
-    img: '../imgs/salah.jpg',
+    img: salah,
     price: '2.5 ETH',
     id: uniqid(),
   },
@@ -70,7 +78,7 @@ export default [
     age: 28,
     club: 'Newcastle United F.C.',
     heigth: '174 CM',
-    img: '../imgs/almiron.jpg',
+    img: almiron,
     price: '1.5 ETH',
     id: uniqid(),
   },
