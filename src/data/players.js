@@ -6,6 +6,7 @@ export default [
     club: 'PSG',
     heigth: '170 CM',
     img: '../../imgs/messi.jpg',
+    price: '3 ETH',
   },
   {
     name: 'Erling Haaland',
@@ -13,6 +14,7 @@ export default [
     club: 'Man City',
     heigth: '194 CM',
     img: '../../imgs/haaland.jpg',
+    price: '2.7 ETH',
   },
   {
     name: 'Harry Kane',
@@ -20,6 +22,7 @@ export default [
     club: 'Tottenham Hotspur',
     heigth: '188 CM',
     img: '../../imgs/harry-kane.jpg',
+    price: '1.4 ETH',
   },
   {
     name: 'Robert Lewandowski',
@@ -27,6 +30,7 @@ export default [
     club: 'FC Barcelona',
     heigth: '185 CM',
     img: '../../imgs/lewa.jpg',
+    price: '1.6 ETH',
   },
   {
     name: 'Sadio Mané',
@@ -34,6 +38,7 @@ export default [
     club: 'FC Bayern Munich',
     heigth: '174 CM',
     img: '../../imgs/mane.jpg',
+    price: '1.8 ETH',
   },
   {
     name: 'Cristiano Ronaldo',
@@ -41,6 +46,7 @@ export default [
     club: 'Al-Nasser',
     heigth: '185 CM',
     img: '../../imgs/ronaldo.jpg',
+    price: '0.5 ETH',
   },
   {
     name: 'Mohamed Salah',
@@ -48,6 +54,7 @@ export default [
     club: 'Liverpool',
     heigth: '175 CM',
     img: '../../imgs/salah.jpg',
+    price: '2.5 ETH',
   },
   {
     name: 'Miguel Almirón',
@@ -55,5 +62,6 @@ export default [
     club: 'Newcastle United F.C.',
     heigth: '174 CM',
     img: '../../imgs/almiron.jpg',
+    price: '1.5 ETH',
   },
 ];

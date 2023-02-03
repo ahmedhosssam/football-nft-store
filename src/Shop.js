@@ -1,10 +1,21 @@
 import ShopItem from './ShopItem';
+import players from './data/players';
 
 const Shop = () => {
   return (
-    <div>
+    <div className="shop">
       <h3>Collection || Planets</h3>
-      <ShopItem />
+      <div className="shop-items">
+        {players.map((player) => {
+          return (
+            <ShopItem
+              img={player.img}
+              name={player.name}
+              price={player.price}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

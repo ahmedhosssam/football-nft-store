@@ -58,3 +58,10 @@ header button:hover {
 .visit-shop-button:hover {
   cursor: pointer;
 }
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
