@@ -1,12 +1,19 @@
 import './App.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="header-name">FOOTBALL NFT</h1>
+      <Link to="/">
+        <button className="header-name">FOOTBALL NFT</button>
+      </Link>
       <div className="header-buttons">
-        <button>Shop</button>
-        <button>Cart</button>
+        <Link to="/shop">
+          <button>Shop</button>
+        </Link>
+        <Link to="/cart">
+          <button>Cart</button>
+        </Link>
       </div>
     </header>
   );
