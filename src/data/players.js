@@ -7,6 +7,7 @@ import lewa from '../imgs/lewa.jpg';
 import mane from '../imgs/mane.jpg';
 import ronaldo from '../imgs/ronaldo.jpg';
 import salah from '../imgs/salah.jpg';
+import mbappe from '../imgs/mbappe.jpg';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
@@ -80,6 +81,15 @@ export default [
     heigth: '174 CM',
     img: almiron,
     price: '1.5 ETH',
+    id: uniqid(),
+  },
+  {
+    name: 'Kylian Mbappé',
+    age: 24,
+    club: 'PSG',
+    heigth: '178 CM',
+    img: mbappe,
+    price: '5 ETH',
     id: uniqid(),
   },
 ];
