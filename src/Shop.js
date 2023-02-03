@@ -1,5 +1,12 @@
+import ShopItem from './ShopItem';
+
 const Shop = () => {
-  return <h1>Shop</h1>;
+  return (
+    <div>
+      <h3>Collection || Planets</h3>
+      <ShopItem />
+    </div>
+  );
 };
 
 export default Shop;
