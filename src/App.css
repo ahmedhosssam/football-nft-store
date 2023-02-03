@@ -8,12 +8,21 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  background-color: black;
+  height: 45px;
+  padding: 0 20px 0 20px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
 }
 
 header h1 {
   color: white;
+  font-size: 30px;
 }
 
 header button {
@@ -21,8 +30,33 @@ header button {
   border: 0;
   font-weight: bold;
   font-size: 25px;
+  color: white;
 }
 
 header button:hover {
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+}
+
+.visit-shop-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.visit-shop-button:hover {
   cursor: pointer;
 }
