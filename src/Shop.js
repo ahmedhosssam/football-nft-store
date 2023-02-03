@@ -9,9 +9,10 @@ const Shop = () => {
         {players.map((player) => {
           return (
             <ShopItem
-              img={player.img}
+              img="../imgs/messi.jpg"
               name={player.name}
               price={player.price}
+              key={player.id}
             />
           );
         })}
