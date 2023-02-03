@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './Header';
+import VisitShopButton from './VisitShopButton';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="main">
       <Header />
-      <div className="home">
-        <button className="visit-shop-button">Visit The Shop</button>
-      </div>
+      <VisitShopButton />
     </div>
   );
 }
