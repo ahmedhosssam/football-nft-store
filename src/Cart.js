@@ -3,12 +3,12 @@ import { itemsArray } from './ItemPage';
 import emptyCartImg from './imgs/empty-cart.png';
 import { Link } from 'react-router-dom';
 
-const Cart = () => {
-  let totalPrice = 0;
-  for (let i = 0; i < itemsArray.length; i++) {
-    totalPrice = totalPrice + itemsArray[i].props.price;
-  }
+let totalPrice = 0;
+for (let i = 0; i < itemsArray.length; i++) {
+  totalPrice = totalPrice + itemsArray[i].props.price;
+}
 
+const Cart = () => {
   return (
     <div className="cart">
       <div>{itemsArray.length > 0 ? '' : <EmptyCart />}</div>

@@ -2,11 +2,14 @@
 import { useParams } from 'react-router-dom';
 import players from './data/players';
 import CartItem from './CartItem';
+import { useState } from 'react';
 
 let itemsArray = [];
+let itemsQuantity = 0;
 
 const ItemPage = () => {
   let { id } = useParams();
+
   // eslint-disable-next-line eqeqeq
   let player = players.find((player) => player.id == id);
 
@@ -19,7 +22,6 @@ const ItemPage = () => {
             className={player.name}
             onClick={(e) => {
               itemsArray.push(createCartItem(e));
-              console.log(itemsArray);
             }}
           >
             Add To Cart
@@ -55,4 +57,4 @@ const createCartItem = (e) => {
   return cartItem;
 };
 
-export { itemsArray };
+export { itemsArray, itemsQuantity };
