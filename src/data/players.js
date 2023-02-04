@@ -1,4 +1,3 @@
-import uniqid from 'uniqid';
 import messi from '../imgs/messi.jpg';
 import almiron from '../imgs/almiron.jpg';
 import haaland from '../imgs/haaland.jpg';
@@ -18,7 +17,7 @@ export default [
     heigth: '170 CM',
     img: messi,
     price: 'PRICELESS',
-    id: uniqid(),
+    id: 0,
   },
   {
     name: 'Erling Haaland',
@@ -27,7 +26,7 @@ export default [
     heigth: '194 CM',
     img: haaland,
     price: '2.7 ETH',
-    id: uniqid(),
+    id: 1,
   },
   {
     name: 'Harry Kane',
@@ -36,7 +35,7 @@ export default [
     heigth: '188 CM',
     img: kane,
     price: '1.4 ETH',
-    id: uniqid(),
+    id: 2,
   },
   {
     name: 'Robert Lewandowski',
@@ -45,7 +44,7 @@ export default [
     heigth: '185 CM',
     img: lewa,
     price: '1.6 ETH',
-    id: uniqid(),
+    id: 3,
   },
   {
     name: 'Sadio Mané',
@@ -54,7 +53,7 @@ export default [
     heigth: '174 CM',
     img: mane,
     price: '1.8 ETH',
-    id: uniqid(),
+    id: 4,
   },
   {
     name: 'Cristiano Ronaldo',
@@ -63,7 +62,7 @@ export default [
     heigth: '185 CM',
     img: ronaldo,
     price: '0.5 ETH',
-    id: uniqid(),
+    id: 5,
   },
   {
     name: 'Mohamed Salah',
@@ -72,7 +71,7 @@ export default [
     heigth: '175 CM',
     img: salah,
     price: '2.5 ETH',
-    id: uniqid(),
+    id: 6,
   },
   {
     name: 'Miguel Almirón',
@@ -81,7 +80,7 @@ export default [
     heigth: '174 CM',
     img: almiron,
     price: '1.5 ETH',
-    id: uniqid(),
+    id: 7,
   },
   {
     name: 'Kylian Mbappé',
@@ -90,6 +89,6 @@ export default [
     heigth: '178 CM',
     img: mbappe,
     price: '5 ETH',
-    id: uniqid(),
+    id: 8,
   },
 ];

@@ -53,10 +53,12 @@ header button:hover {
   color: white;
   font-weight: bold;
   font-size: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .visit-shop-button:hover {
-  cursor: pointer;
+  font-size: 33px;
 }
 
 .shop {

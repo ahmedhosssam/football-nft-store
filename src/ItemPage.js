@@ -1,17 +1,29 @@
 // import { useActionData } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import players from './data/players';
+import CartItem from './CartItem';
+
+let itemsArray = [];
 
 const ItemPage = () => {
   let { id } = useParams();
-  let player = players.find((player) => player.id === id);
+  // eslint-disable-next-line eqeqeq
+  let player = players.find((player) => player.id == id);
 
   return (
     <div className="player-page">
       <div className="player-item">
         <div className="img-holder-player-page">
           <img src={player.img} alt={player.name} />
-          <button>Add To Cart</button>
+          <button
+            className={player.name}
+            onClick={(e) => {
+              itemsArray.push(createCartItem(e));
+              console.log(itemsArray);
+            }}
+          >
+            Add To Cart
+          </button>
         </div>
         <div className="player-discription">
           <h1>{player.name}</h1>
@@ -26,3 +38,21 @@ const ItemPage = () => {
 };
 
 export default ItemPage;
+
+const createCartItem = (e) => {
+  const name = e.target.className;
+  let player = players.find((player) => player.name === name);
+
+  let cartItem = (
+    <CartItem
+      img={player.img}
+      name={player.name}
+      price={player.price}
+      key={player.id}
+    />
+  );
+
+  return cartItem;
+};
+
+export { itemsArray };
