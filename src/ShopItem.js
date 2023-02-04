@@ -5,7 +5,7 @@ const ShopItem = ({ img, name, price, id }) => {
         <img src={img} alt={name} />
       </div>
       <h2>{name}</h2>
-      <h3>{price}</h3>
+      <h3>{price} ETH</h3>
     </div>
   );
 };

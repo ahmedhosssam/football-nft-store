@@ -16,7 +16,7 @@ export default [
     club: 'PSG',
     heigth: '170 CM',
     img: messi,
-    price: 'PRICELESS',
+    price: 50,
     id: 0,
   },
   {
@@ -25,7 +25,7 @@ export default [
     club: 'Man City',
     heigth: '194 CM',
     img: haaland,
-    price: '2.7 ETH',
+    price: 2.7,
     id: 1,
   },
   {
@@ -34,7 +34,7 @@ export default [
     club: 'Tottenham Hotspur',
     heigth: '188 CM',
     img: kane,
-    price: '1.4 ETH',
+    price: 1.4,
     id: 2,
   },
   {
@@ -43,7 +43,7 @@ export default [
     club: 'FC Barcelona',
     heigth: '185 CM',
     img: lewa,
-    price: '1.6 ETH',
+    price: 1.6,
     id: 3,
   },
   {
@@ -52,7 +52,7 @@ export default [
     club: 'FC Bayern Munich',
     heigth: '174 CM',
     img: mane,
-    price: '1.8 ETH',
+    price: 1.8,
     id: 4,
   },
   {
@@ -61,7 +61,7 @@ export default [
     club: 'Al-Nasser',
     heigth: '185 CM',
     img: ronaldo,
-    price: '0.5 ETH',
+    price: 0.5,
     id: 5,
   },
   {
@@ -70,7 +70,7 @@ export default [
     club: 'Liverpool',
     heigth: '175 CM',
     img: salah,
-    price: '2.5 ETH',
+    price: 2.5,
     id: 6,
   },
   {
@@ -79,7 +79,7 @@ export default [
     club: 'Newcastle United F.C.',
     heigth: '174 CM',
     img: almiron,
-    price: '1.5 ETH',
+    price: 1.5,
     id: 7,
   },
   {
@@ -88,7 +88,7 @@ export default [
     club: 'PSG',
     heigth: '178 CM',
     img: mbappe,
-    price: '5 ETH',
+    price: 5,
     id: 8,
   },
 ];
