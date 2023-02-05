@@ -34,7 +34,7 @@ const EmptyCart = () => {
       <p>YOUR CART IS EMPTY</p>
       <img src={emptyCartImg} alt="empty-cart" />
 
-      <Link to={`/shopping-cart/shop`} style={{ textDecoration: 'none' }}>
+      <Link to={`/football-nft-store/shop`} style={{ textDecoration: 'none' }}>
         <button>Back To Shop</button>
       </Link>
     </div>

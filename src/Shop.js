@@ -11,7 +11,7 @@ const Shop = () => {
         {players.map((player) => {
           return (
             <Link
-              to={`/shopping-cart/shop/${player.id}`}
+              to={`/football-nft-store/shop/${player.id}`}
               key={player.id}
               style={{ textDecoration: 'none' }}
             >
