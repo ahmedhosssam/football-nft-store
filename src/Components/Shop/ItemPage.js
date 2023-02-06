@@ -4,7 +4,6 @@ import players from '../../data/players';
 import CartItem from '../Cart/CartItem';
 
 let itemsArray = [];
-let itemsQuantity = 0;
 
 const ItemPage = () => {
   let { id } = useParams();
@@ -59,4 +58,4 @@ const createCartItem = (e) => {
   return cartItem;
 };
 
-export { itemsArray, itemsQuantity };
+export { itemsArray };
