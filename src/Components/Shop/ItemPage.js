@@ -1,5 +1,5 @@
 // import { useActionData } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import players from '../../data/players';
 import CartItem from '../Cart/CartItem';
 
@@ -17,14 +17,6 @@ const ItemPage = () => {
       <div className="player-item">
         <div className="img-holder-player-page">
           <img src={player.img} alt={player.name} />
-          <button
-            className={player.name}
-            onClick={(e) => {
-              itemsArray.push(createCartItem(e));
-            }}
-          >
-            Add To Cart
-          </button>
         </div>
         <div className="player-discription">
           <h1>{player.name}</h1>
@@ -32,6 +24,17 @@ const ItemPage = () => {
           <p>Age : {player.age}</p>
           <p>Height : {player.heigth}</p>
           <p>Club : {player.club}</p>
+          <Link to={`/football-nft-store/cart`}>
+            <button
+              id="addToCartButton"
+              className={player.name}
+              onClick={(e) => {
+                itemsArray.push(createCartItem(e));
+              }}
+            >
+              Add To Cart
+            </button>
+          </Link>
         </div>
       </div>
     </div>

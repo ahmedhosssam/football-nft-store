@@ -58,7 +58,9 @@ header button:hover {
 }
 
 .visit-shop-button:hover {
-  font-size: 33px;
+  /* color: black; */
+  background-color: transparent;
+  border: 1.5px white solid;
 }
 
 .shop {
@@ -153,20 +155,19 @@ header button:hover {
   border: 2px solid black;
 }
 
-.img-holder-player-page button {
-  position: absolute;
-  bottom: 10px;
+#addToCartButton {
   background-color: black;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   padding: 5px 10px;
   font-weight: 600;
-  transition: all 0.3s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 
-.img-holder-player-page button:hover {
-  font-size: 32px;
+#addToCartButton:hover {
+  color: black;
+  background-color: white;
 }
 
 .player-item img {
