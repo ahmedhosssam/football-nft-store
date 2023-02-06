@@ -1,10 +1,19 @@
+:root {
+  background-image: url('./imgs/shop-background.jpg');
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   height: 45px;
-  padding: 0 20px 0 20px;
+  padding: 0 25px 0 25px;
 }
 
 .header-buttons {
@@ -240,10 +249,11 @@ header button:hover {
 }
 
 .cart {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-color: white;
+  width: fit-content;
+  border: 1px black solid;
 }

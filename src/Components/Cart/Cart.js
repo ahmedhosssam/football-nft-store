@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Cart = () => {
   let totalPrice = 0;
+  let isActive = itemsArray.length > 0;
 
   // Calculate The totalprice of the items
   for (let i = 0; i < itemsArray.length; i++) {
@@ -13,7 +14,7 @@ const Cart = () => {
 
   return (
     <div className="cart">
-      <div>{itemsArray.length > 0 ? '' : <EmptyCart />}</div>
+      <div>{isActive ? <YourChoices /> : <EmptyCart />}</div>
       <div className="cart-items">
         {itemsArray.map((item) => {
           return (
@@ -21,11 +22,14 @@ const Cart = () => {
               key={itemsArray[item]}
               name={item.props.name}
               img={item.props.img}
+              price={item.props.price}
             />
           );
         })}
       </div>
-      <p className="cart-total">Total : {totalPrice} ETH</p>
+      <p className="cart-total">
+        {isActive ? `Total : ${totalPrice} ETH` : ''}
+      </p>
     </div>
   );
 };
@@ -41,6 +45,10 @@ const EmptyCart = () => {
       </Link>
     </div>
   );
+};
+
+const YourChoices = () => {
+  return <p>Your NFTs : </p>;
 };
 
 export default Cart;

@@ -9,8 +9,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <div className="main">
-        <Header />
         <Routes>
           <Route path={`/football-nft-store/shop/:id`} element={<ItemPage />} />
           <Route path="/football-nft-store" element={<Home />} />

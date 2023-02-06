@@ -1,4 +1,3 @@
-// import { useActionData } from 'react-router-dom';
 import { Link, useParams } from 'react-router-dom';
 import players from '../../data/players';
 import CartItem from '../Cart/CartItem';
