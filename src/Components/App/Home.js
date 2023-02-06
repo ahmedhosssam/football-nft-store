@@ -1,4 +1,4 @@
-import VisitShopButton from './VisitShopButton';
+import VisitShopButton from '../Shop/VisitShopButton';
 const Home = () => {
   return <VisitShopButton />;
 };

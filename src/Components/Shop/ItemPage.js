@@ -1,8 +1,7 @@
 // import { useActionData } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import players from './data/players';
-import CartItem from './CartItem';
-import { useState } from 'react';
+import players from '../../data/players';
+import CartItem from '../Cart/CartItem';
 
 let itemsArray = [];
 let itemsQuantity = 0;

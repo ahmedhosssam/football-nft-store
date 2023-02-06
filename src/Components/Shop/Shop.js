@@ -1,5 +1,5 @@
 import ShopItem from './ShopItem';
-import players from './data/players';
+import players from '../../data/players';
 import { Link } from 'react-router-dom';
 // import ItemPage from './ItemPage';
 

@@ -1,14 +1,16 @@
 import CartItem from './CartItem';
-import { itemsArray } from './ItemPage';
-import emptyCartImg from './imgs/empty-cart.png';
+import { itemsArray } from '../Shop/ItemPage';
+import emptyCartImg from '../../imgs/empty-cart.png';
 import { Link } from 'react-router-dom';
 
-let totalPrice = 0;
-for (let i = 0; i < itemsArray.length; i++) {
-  totalPrice = totalPrice + itemsArray[i].props.price;
-}
-
 const Cart = () => {
+  let totalPrice = 0;
+
+  // Calculate The totalprice of the items
+  for (let i = 0; i < itemsArray.length; i++) {
+    totalPrice = totalPrice + itemsArray[i].props.price;
+  }
+
   return (
     <div className="cart">
       <div>{itemsArray.length > 0 ? '' : <EmptyCart />}</div>
