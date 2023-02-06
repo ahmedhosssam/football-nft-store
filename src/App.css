@@ -5,6 +5,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -44,6 +45,7 @@ header button:hover {
   align-items: center;
   position: relative;
   height: 100vh;
+  width: 100%;
 
   background-image: url('./imgs/wallpaper.jpg');
   background-size: cover;
@@ -189,27 +191,6 @@ header button:hover {
   font-weight: bold;
 }
 
-.cart-item {
-  display: flex;
-  gap: 15px;
-  border: 1px solid black;
-  width: fit-content;
-  padding-right: 15px;
-}
-
-.cart-image-holder {
-  width: 200px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-}
-
-.cart-image-holder img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
 /* Empty Cart */
 
 .empty-cart {
@@ -248,12 +229,99 @@ header button:hover {
   font-size: 25px;
 }
 
+/* Cart */
+
 .cart {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   background-color: white;
   width: fit-content;
   border: 1px black solid;
+}
+
+.main-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vh;
+  height: fit-content;
+  margin-bottom: 25px;
+}
+
+.main-cart button {
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 5px 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.main-cart button:hover {
+  background-color: white;
+  color: black;
+}
+
+.your-nfts-text {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 15px;
+  border: 1px solid black;
+  padding-right: 15px;
+}
+
+.cart-item p {
+  font-weight: bold;
+}
+
+.cart-image-holder {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-image-holder img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 50px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  transition: all 0.3;
+}
+
+.footer img:hover {
+  background-color: white;
 }

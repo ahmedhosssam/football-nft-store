@@ -5,6 +5,7 @@ import Shop from '../Shop/Shop';
 import Cart from '../Cart/Cart';
 import ItemPage from '../Shop/ItemPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
