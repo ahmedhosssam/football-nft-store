@@ -19,6 +19,8 @@ function App() {
           <Route path="/football-nft-store/cart" element={<Cart />} />
         </Routes>
       </div>
+
+      <Footer />
     </BrowserRouter>
   );
 }

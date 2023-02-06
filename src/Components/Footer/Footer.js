@@ -1,8 +1,8 @@
-import githubLogo from '../../imgs/github-mark.svg';
+import githubLogo from '../../imgs/github-mark-white.svg';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer>
       <div>Made By Ahmed Hossam</div>
       <a href="https://github.com/ahmedhosssam">
         <img src={githubLogo} alt="Github" />
