@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Shop = () => {
   return (
     <div className="shop">
-      <h3>Collection || Players</h3>
+      <h3 className="collection-players-headername">Collection || Players</h3>
       <div className="shop-items">
         {players.map((player) => {
           return (

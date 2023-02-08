@@ -1,5 +1,6 @@
 .shop {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 80%;
 
   background-image: url('../imgs/shop-background.jpg');
@@ -8,6 +9,7 @@
   background-attachment: fixed;
   background-position: center;
 }
+
 .shop-items {
   display: grid;
   /* grid-template-columns: repeat(3, 300px); */
@@ -59,4 +61,8 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.collection-players-headername {
+  align-self: center;
 }
