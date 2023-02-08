@@ -10,18 +10,20 @@ const Shop = () => {
       <div className="shop-items">
         {players.map((player) => {
           return (
-            <Link
-              to={`/football-nft-store/shop/${player.id}`}
-              key={player.id}
-              style={{ textDecoration: 'none' }}
-            >
-              <ShopItem
-                img={player.img}
-                name={player.name}
-                price={player.price}
+            <div>
+              <Link
+                to={`/football-nft-store/shop/${player.id}`}
                 key={player.id}
-              />
-            </Link>
+                style={{ textDecoration: 'none' }}
+              >
+                <ShopItem
+                  img={player.img}
+                  name={player.name}
+                  price={player.price}
+                  key={player.id}
+                />
+              </Link>
+            </div>
           );
         })}
       </div>

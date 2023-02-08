@@ -83,10 +83,8 @@ header button:hover {
 }
 
 .shop {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  width: 80%;
 
   background-image: url('./imgs/shop-background.jpg');
   background-size: cover;
@@ -96,12 +94,12 @@ header button:hover {
 }
 .shop-items {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  /* grid-template-columns: repeat(3, 300px); */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   column-gap: 80px;
   row-gap: 50px;
   margin-bottom: 25px;
   margin-top: 10px;
-  background-color: white;
 }
 
 .item {
@@ -115,6 +113,7 @@ header button:hover {
   padding-bottom: 8px;
   cursor: pointer;
   color: black;
+  background-color: white;
 }
 
 .item:hover {

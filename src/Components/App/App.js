@@ -1,4 +1,5 @@
 import '../../App.css';
+import '../../Styles/shop.css';
 import Header from '../Header/Header';
 import Home from './Home';
 import Shop from '../Shop/Shop';
