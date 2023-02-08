@@ -30,3 +30,13 @@ header button:hover {
   cursor: pointer;
   letter-spacing: 5px;
 }
+
+@media (max-width: 400px) {
+  header {
+    height: 35px;
+  }
+
+  header button {
+    font-size: 15px;
+  }
+}
