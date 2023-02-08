@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/football-nft-store/static/css/main.dabb9e74.css",
+    "main.css": "/football-nft-store/static/css/main.b938d4fa.css",
     "main.js": "/football-nft-store/static/js/main.46b9a6eb.js",
     "static/js/787.2f54ef58.chunk.js": "/football-nft-store/static/js/787.2f54ef58.chunk.js",
     "static/media/ronaldo.jpg": "/football-nft-store/static/media/ronaldo.47f049de63ad61d4832a.jpg",
@@ -16,12 +16,12 @@
     "static/media/haaland.jpg": "/football-nft-store/static/media/haaland.bd4be932f1eee3523201.jpg",
     "static/media/github-mark-white.svg": "/football-nft-store/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/football-nft-store/index.html",
-    "main.dabb9e74.css.map": "/football-nft-store/static/css/main.dabb9e74.css.map",
+    "main.b938d4fa.css.map": "/football-nft-store/static/css/main.b938d4fa.css.map",
     "main.46b9a6eb.js.map": "/football-nft-store/static/js/main.46b9a6eb.js.map",
     "787.2f54ef58.chunk.js.map": "/football-nft-store/static/js/787.2f54ef58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dabb9e74.css",
+    "static/css/main.b938d4fa.css",
     "static/js/main.46b9a6eb.js"
   ]
 }
