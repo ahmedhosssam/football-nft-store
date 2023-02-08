@@ -82,31 +82,6 @@ header button:hover {
   border: 1.5px white solid;
 }
 
-.cart-item {
-  display: flex;
-  margin-bottom: 15px;
-  gap: 15px;
-  border: 1px solid black;
-  padding-right: 15px;
-}
-
-.cart-item p {
-  font-weight: bold;
-}
-
-.cart-image-holder {
-  width: 200px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-}
-
-.cart-image-holder img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
 /* Footer */
 footer {
   background-color: black;

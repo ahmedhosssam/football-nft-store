@@ -3,6 +3,7 @@ import '../../Styles/shop.css';
 import '../../Styles/player-page.css';
 import '../../Styles/empty-cart.css';
 import '../../Styles/main-cart.css';
+import '../../Styles/cart-item.css';
 import Header from '../Header/Header';
 import Home from './Home';
 import Shop from '../Shop/Shop';
