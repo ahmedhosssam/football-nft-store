@@ -14,39 +14,6 @@ body {
   align-items: center;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  height: 45px;
-  padding: 0 25px 0 25px;
-}
-
-.header-buttons {
-  display: flex;
-  gap: 15px;
-}
-
-header h1 {
-  color: white;
-  font-size: 30px;
-}
-
-header button {
-  background-color: transparent;
-  border: 0;
-  font-weight: bold;
-  font-size: 25px;
-  color: white;
-  transition: all 0.3s ease;
-}
-
-header button:hover {
-  cursor: pointer;
-  letter-spacing: 5px;
-}
-
 .home {
   display: flex;
   justify-content: center;
