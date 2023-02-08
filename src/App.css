@@ -82,51 +82,6 @@ header button:hover {
   border: 1.5px white solid;
 }
 
-.cart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  background-color: white;
-  width: fit-content;
-  border: 1px black solid;
-}
-
-.main-cart {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 70vh;
-  height: fit-content;
-  margin-bottom: 25px;
-}
-
-.main-cart button {
-  bottom: 10px;
-  background-color: black;
-  color: white;
-  font-size: 15px;
-  padding: 5px 10px;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-.main-cart button:hover {
-  background-color: white;
-  color: black;
-}
-
-.your-nfts-text {
-  font-size: 20px;
-  background-color: black;
-  color: white;
-  padding: 5px 10px;
-  font-weight: bold;
-}
-
 .cart-item {
   display: flex;
   margin-bottom: 15px;
