@@ -1,0 +1,35 @@
+.empty-cart {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.empty-cart button {
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 5px 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.empty-cart button:hover {
+  color: black;
+  background-color: white;
+}
+
+.empty-cart p {
+  font-weight: bold;
+  font-size: 25px;
+}

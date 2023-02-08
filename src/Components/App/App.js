@@ -1,6 +1,7 @@
 import '../../App.css';
 import '../../Styles/shop.css';
 import '../../Styles/player-page.css';
+import '../../Styles/empty-cart.css';
 import Header from '../Header/Header';
 import Home from './Home';
 import Shop from '../Shop/Shop';
