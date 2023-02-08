@@ -39,10 +39,12 @@ header button {
   font-weight: bold;
   font-size: 25px;
   color: white;
+  transition: all 0.3s ease;
 }
 
 header button:hover {
   cursor: pointer;
+  letter-spacing: 5px;
 }
 
 .home {
